@@ -128,7 +128,7 @@ Untuk bantuan silahkan klik tombol dibawah.
     return
 
 
-@Client.on_message(filters.private & filters.incoming & filters.command("start"))
+@Client.on_message(filters.private & filters.incoming & filters.command("0start0ssd"))
 async def play(_, message: Message):
     if len(message.command) == 1:
         user_id = message.from_user.id
